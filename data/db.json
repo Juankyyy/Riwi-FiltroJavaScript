@@ -1,0 +1,238 @@
+{
+  "admin": [
+    {
+      "id": "01",
+      "name": "Juanky",
+      "email": "juanky@admin.com",
+      "password": "admin123"
+    }
+  ],
+  "pqrs": [
+    {
+      "id": "d2be",
+      "type": "Reclamo",
+      "email": "maicol@gmail.com",
+      "message": "Esta muy fea la pagina"
+    },
+    {
+      "id": "1395",
+      "type": "Sugerencia",
+      "email": "wilmar@gmail.com",
+      "message": "Cambiar de FrontEnd"
+    },
+    {
+      "id": "5fea",
+      "type": "Reclamo",
+      "email": "Angie@gmail.com",
+      "message": "Cuando le fui a pedir ayuda me dijo \"Ud que está haciendo hermana!\""
+    },
+    {
+      "id": "ad9e",
+      "type": "Reclamo",
+      "email": "mateo@gmail.com",
+      "message": "Yucant"
+    }
+  ],
+  "brands": [
+    {
+      "name": "Totto",
+      "local": "101",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/j4LGSpH/totto-medellin.jpg",
+      "website": "https://www.co.totto.com/",
+      "description": "Compra en Totto",
+      "id": "01"
+    },
+    {
+      "id": "02",
+      "name": "Brancho",
+      "local": "102",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/gjH38M0/logo-branchos-1.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Branchos"
+    },
+    {
+      "id": "03",
+      "name": "Cacahuate",
+      "local": "103",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/QDXjYGx/logo-cacahuate.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Cacahuate"
+    },
+    {
+      "id": "04",
+      "name": "Contrate",
+      "local": "104",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/JqSrNN7/logo-contrate.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Contrate"
+    },
+    {
+      "id": "05",
+      "name": "Corps",
+      "local": "105",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/3NjVGTT/logo-corps.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Corps"
+    },
+    {
+      "id": "06",
+      "name": "Krokantes",
+      "local": "106",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/Ht9VXN9/logo-empanadas-krokantes.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Krokantes"
+    },
+    {
+      "id": "07",
+      "name": "Giant",
+      "local": "107",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/VJfYPvY/logo-giant.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Giant"
+    },
+    {
+      "id": "08",
+      "name": "Lilipink",
+      "local": "108",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/YQm26R5/logo-lilipink.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Lilipink"
+    },
+    {
+      "id": "09",
+      "name": "Touche",
+      "local": "109",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/61Xr4Qh/logo-touche.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Touche"
+    },
+    {
+      "id": "10",
+      "name": "Agua Bendita",
+      "local": "110",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/w0fbxJm/logo-agua-bendita.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Agua Bendita"
+    },
+    {
+      "id": "11",
+      "name": "Ahora",
+      "local": "111",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/d4cNF2R/logo-ahora.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Ahora"
+    },
+    {
+      "id": "12",
+      "name": "American Brands",
+      "local": "112",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/y4gkwhR/logo-american-brands.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en American Brands"
+    },
+    {
+      "id": "13",
+      "name": "Amoblando",
+      "local": "113",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/SR8BMd0/logo-amoblando.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Amoblando"
+    },
+    {
+      "id": "14",
+      "name": "Calza Todo",
+      "local": "114",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/LPfPQxJ/logo-calzatodo.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Calza Todo"
+    },
+    {
+      "id": "15",
+      "name": "Chamela",
+      "local": "115",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/swptd70/logo-chamela.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Chamela"
+    },
+    {
+      "id": "16",
+      "name": "Codelin",
+      "local": "116",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/6wNcB15/logo-codelin.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Codelin"
+    },
+    {
+      "id": "17",
+      "name": "Color Blue",
+      "local": "117",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/jhRYZDW/logo-color-blue-1.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Color Blue"
+    },
+    {
+      "id": "18",
+      "name": "D1",
+      "local": "118",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/yFYSBF6/logo-d1.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en D1"
+    },
+    {
+      "id": "19",
+      "name": "Diesel",
+      "local": "119",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/Xx1YncJ/logo-Diesel.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Diesel"
+    },
+    {
+      "id": "20",
+      "name": "Dollar City",
+      "local": "120",
+      "floor": "1",
+      "schedule": "Lunes - Sábados: 10:00AM - 7:00PM Domingos y Festivos 10:00AM - 6:00PM",
+      "logo": "https://i.ibb.co/52s9xfz/logo-dollarcity.jpg",
+      "website": "https://www.tiendasbranchos.com/",
+      "description": "Compra en Dollar City"
+    }
+  ]
+}
