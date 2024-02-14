@@ -9,28 +9,16 @@
   ],
   "pqrs": [
     {
-      "id": "d2be",
-      "type": "Reclamo",
-      "email": "maicol@gmail.com",
-      "message": "Esta muy fea la pagina"
+      "id": "7292",
+      "type": "Queja",
+      "email": "pedro@gmail.com",
+      "message": "La pagina no es responsive"
     },
     {
-      "id": "1395",
-      "type": "Sugerencia",
-      "email": "wilmar@gmail.com",
-      "message": "Cambiar de FrontEnd"
-    },
-    {
-      "id": "5fea",
-      "type": "Reclamo",
-      "email": "Angie@gmail.com",
-      "message": "Cuando le fui a pedir ayuda me dijo \"Ud que está haciendo hermana!\""
-    },
-    {
-      "id": "ad9e",
-      "type": "Reclamo",
-      "email": "mateo@gmail.com",
-      "message": "Yucant"
+      "id": "f61e",
+      "type": "Petición",
+      "email": "ernesto@gmail.com",
+      "message": "Agregar modo oscuro"
     }
   ],
   "brands": [
