@@ -52,24 +52,23 @@ fetch(urlBrands).then(r => r.json()).then(d => {
 
         content.append(img, title, description, divider, details);
 
-
         // --- --- SEARCH --- ---
         const search = document.querySelector("#search");
         const brandNames = d.flatMap(brand => brand.name);
         const titles = document.querySelectorAll(".title");
-        search.addEventListener("keyup", (event) => {
+        search.addEventListener("keyup", () => {
             brandNames.forEach(brand => {
                 if (brand.toLowerCase().startsWith(search.value)) {
-                    titles.forEach(card => {
-                        const title = card.parentElement;
-                        if (title.children[1].textContent.toLowerCase().startsWith(search.value)) {
-                            title.parentElement.style = "display: flex !important;"
+                    titles.forEach(title => {
+                        const card = title.parentElement;
+                        if (card.children[1].textContent.toLowerCase().startsWith(search.value)) {
+                            card.parentElement.style = "display: flex !important;"
                         } else {
-                            title.parentElement.style = "display: none !important;"
-                        }
-                    })
-                }   
-            })
-        })
+                            card.parentElement.style = "display: none !important;"
+                        };
+                    });
+                };   
+            });
+        });
     });
-})
+});

@@ -116,7 +116,7 @@ fetch(urlAdmins).then(r => r.json()).then(d => {
                 method: "DELETE"
             }
 
-            const confirmation = confirm(`¿Está seguro de eliminar la marca ${info.children[2].innerText}?`);
+            const confirmation = confirm(`¿Está seguro de eliminar el admin ${info.children[1].innerText}?`);
             if (confirmation) {
                 fetch(urlAdmins + `/${id}`, options);
             }
@@ -133,6 +133,7 @@ const adminCreate = document.querySelector("#adminCreate");
 adminCreate.addEventListener("click", () => {
     const modalName = document.querySelector("#modalName");
     const modalEmail = document.querySelector("#modalEmail");
+    const modalPassword = document.querySelector("#modalPassword");
     const modalSubmit = document.querySelector("#modalSubmit");
     const invalid = document.querySelector("#invalid");
     invalid.style = "display: none;"
@@ -142,7 +143,7 @@ adminCreate.addEventListener("click", () => {
             const data = {
                 name: modalName.value,
                 email: modalEmail.value,
-                password: ""
+                password: modalPassword.value
             }
 
             const options = {
@@ -154,6 +155,7 @@ adminCreate.addEventListener("click", () => {
             fetch(urlAdmins, options);
             modalName.value = "";
             modalEmail.value = "";
+            modalPassword.value = "";
         } else {
             invalid.style = "color: red; font-weight: bold; display: block;"
         }
